@@ -84,6 +84,8 @@ button:hover, #usercreate:hover, #usercreate1:hover {
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 #AssignTask:hover {
