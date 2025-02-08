@@ -1,258 +1,225 @@
-
-
-*{
-    margin: 0px;
-    padding: 0px;
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#firstdiv
-{
-    margin-top: -15px;
-    height: 420px;
-    padding: 15px;
-    width: 100%;
+body {
+    /* display: flex; */
+    flex-direction: column;
     align-items: center;
-    /* border:2px solid black; */
+    background-color: #f5f5f5;
+}
+
+/* Containers */
+#firstdiv, #firstdiv1 {
+    width: 100%;
+    height:355px ;
+    padding: 20px;
     background-color: #dfecec;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
-#firstdiv1
-{
-    margin-top: -15px;
-    height: 420px;
-    padding: 15px;
-    width: 100%;
-    align-items: center;
-    /* border:2px solid black; */
-    /* background-color: #dfecec; */
-    
+
+/* Forms */
+#formss1, #formss, #formsss {
+    width: 95%;
+    max-width: 600px;
 }
-#formss1{
-    margin-top: 20px;
+
+/* Second Div */
+#seconddiv {
+    border: 1px solid black;
     width: 90%;
-  }
-#seconddiv
-{
-    border:1px solid black;
-    height: 350px;
-    width: 400px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    max-width: 400px;
+    margin: 15px auto;
     border-radius: 25px;
     background-color: #568f8f;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: center;
 }
-#modelss{
-    /* border:2px solid black; */
-    height: 315px;
-    width: 350px;
+
+#modelss {
+    width: 90%;
+    max-width: 350px;
     background-color: #dfecec;
     border-radius: 25px;
+    padding: 15px;
 }
-#formss{
-  margin-top: 42px;
-  width: 90%;
-}
-#formsss{
-    width: 90%;
-}
-#options{
-    width: 90%;
-    height: 60px;
-  }
-#btn{
+
+/* Buttons */
+button, #usercreate, #usercreat, #usercreate1 {
     height: 40px;
-}
-#usercreate{
-    height: 35px;
-    width:178px;
     border: 2px solid black;
-    margin-top: 25px;
     border-radius: 15px;
-    padding-top: 5px;
-    background-color:#95b0ea;
+    background-color: #95b0ea;
     color: white;
-}
-#usercreat{
-    
-    height: 35px;
-    width:230px;
-    border: 2px solid black;
-    margin-top: 15px;
-    border-radius: 15px;
-    background-color:#95b0ea;
-    color: white;
-    padding-top: 5px;
-}
-#usercreate:hover{
-        background-color: beige;
-        color: rgb(169, 111, 111);
-}
-#usercreatemain{
-    height: 400px;
-    /* border: 2px solid black; */
-    margin-bottom: 18px;
-    
-}
-#usercreatesecond{
-    border: 2px solid black;
-    width: 370px;
-    height: 400px;
-    border-radius: 15px;
-    background-color: #b4c4e7;
-    
-}
-#usersection11{
-    border: 2px solid black;
-    height: 430px;
-    border-radius: 15px;
-    /* overflow-y: hidden; */
-}
-#usersection1{
-    /* border: 2px solid black; */
-    /* margin-bottom: 15px; */
-}
-#usersection2{
-    /* border: 2px solid black; */
-    
-}
-#usersection3{
-    /* border: 2px solid black; */
-    width:400px;
-    height: 400px;
-    /* margin-top: 15px; */
-    border-radius: 15px;
-    background-color: #748181;
-    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
-#usersection4{
-    margin-top: 15px;
-    margin-left: 55px;
-    text-align: center;
+
+button:hover, #usercreate:hover, #usercreate1:hover {
+    background-color: beige;
+    color: rgb(169, 111, 111);
 }
-#usercreate1{
+
+/* Assign Task Button */
+#AssignTask {
+    border: 2px solid black;
+    width: 120px;
     height: 35px;
-    width:178px;
-    border: 2px solid black;
-    margin-top: 15px;
-    padding-top: 5px;
-    border-radius: 15px;
-    background-color:#95b0ea;
-    color: white;
-}
-#usercreate1:hover{
-        background-color: beige;
-        color: rgb(169, 111, 111);
-}
-#AssignTask{
-    border: 2px solid black;
-    text-align: center;
-    width: 100px;
-    height: 30px;
-    border-radius:10px;
+    border-radius: 10px;
     background-color: rgb(192, 252, 192);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
 }
-#AssignTask:hover{
+
+#AssignTask:hover {
     background-color: black;
     color: white;
 }
-#AssignTask1{
-    text-decoration:none;
-    /* color: black; */
+
+/* User Sections */
+#usercreatemain, #usercreatesecond, #usersection3 {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
 }
-#AssignTask1:hover{
-    color: white;
+
+#usercreatesecond {
+    background-color: #b4c4e7;
+    border: 2px solid black;
 }
-#formsss111{
-    /* border: 2px solid beige; */
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+
+/* Scrollable Sections */
+#formstatus, #outlett {
+    height: 400px;
+    overflow-y: auto;
+    border-radius: 15px;
+    padding: 10px;
 }
-#formsss11{
+
+/* Images */
+#img1, #img2 {
+    border: 2px solid black;
+    height: 120px;
+    width: 230px;
+    border-radius: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+}
+
+#img1 {
+    background-image: url('../Images/Coding.avif');
+}
+
+#bgpic1 {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-image: url("../Images/coding1.jpeg");
+    width: 90%;
+    max-width: 430px;
+    margin-bottom: 15px;
+}
+
+/* Form Alignment */
+#formsss111 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#formsss11 {
     width: 90%;
     height: 58px;
     margin-bottom: 3.5px;
 }
-#form121{
-    height:40px ;
+
+#form121 {
+    height: 40px;
 }
-#descript{
+
+#descript {
     height: 125px;
 }
-#formstatus{
-    /* border: 2px solid black; */
-    height: 400px;
-    overflow-x: scroll;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-#img1{
-    border: 2px solid black;
-    height: 100px;
-    width: 210px;
-    margin-top: 25px;
-    border-radius: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-image: url('../Images/Coding.avif');
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    
-}
-#img2{
-    height: 100px;
-    width: 210px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-size: contain;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#bgpic1{
-    border: 2px solid black;
-    margin-bottom: 15px;
-    border-radius: 15px;
-    background-image: url("../Images/coding1.jpeg");
-    width: 430px;
-    margin-left: 15px;
-}
-#usercreatemain11{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-#outlett{
- /* border:2px solid black; */
- height: 430px;
- overflow-y: scroll;
- border-radius: 15px;
 
- /* background-image: url("../Images/coding1.jpeg"); */
-}
-#phto1{
-    /* border: 2px solid black; */
-    margin-bottom: 15px;
-    width: 320px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: -22px;
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #firstdiv, #firstdiv1 {
+        flex-direction: column;
+        padding: 15px;
+    }
 
-}
-#formphoto{
-    width: 100px;
-}
-#divimg{
-    background-position:center;
-    background-repeat:  no-repeat;;
-    background-size: cover;
+    #seconddiv, #modelss, #usercreatemain, #usercreatesecond, #usersection3 {
+        width: 100%;
+        max-width: 100%;
+    }
 
-    /* back */
+    #img1, #img2 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #AssignTask {
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    #formsss11 {
+        height: 50px;
+    }
+
+    #usercreate, #usercreat, #usercreate1 {
+        width: 80%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    #firstdiv, #firstdiv1 {
+        padding: 10px;
+    }
+
+    #AssignTask {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    #formsss111 {
+        flex-direction: column;
+    }
+
+    #usercreate, #usercreat, #usercreate1 {
+        width: 100%;
+        max-width: 180px;
+        font-size: 14px;
+    }
+
+    #img1, #img2 {
+        width: 90%;
+        height: auto;
+    }
 }

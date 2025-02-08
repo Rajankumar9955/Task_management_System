@@ -79,7 +79,7 @@ const Login=()=>{
                                  <Form.Control type="password" placeholder="Password" value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
                                  </FloatingLabel>
 
-                                 <Form.Select aria-label="Default select example" id='options'className="mb-2" name='usertype'  value={usertype}  onChange={(e)=>{setUserType(e.target.value)}}>
+                                 <Form.Select aria-label="Default select example" id='formsss'className="mb-2" name='usertype'  value={usertype}  onChange={(e)=>{setUserType(e.target.value)}}>
                                   <option>Login as a</option>
                                   <option value="ADMIN">ADMIN</option>
                                   <option value="EMPLOYEE">EMPLOYEE</option>
