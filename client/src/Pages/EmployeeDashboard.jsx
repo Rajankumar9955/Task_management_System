@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { Link, Outlet, useNavigate} from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import img from "../Images/Coding.Avif"
+import img from "../Images/Coding.avif"
 import { message } from 'antd';
 const EmployeeDashboard=()=>{
 
