@@ -11,7 +11,7 @@ const TaskStatus=()=>{
     const [isVisible,setisVisible]=useState(true);
     const loadData=async()=>{
         try {
-            let api="http://localhost:8080/admin/taskstatus";
+            let api="https://task-management-system-ot85.onrender.com/admin/taskstatus";
             const response=await axios.get(api);
             setData(response.data);
             console.log(Data);
@@ -31,7 +31,7 @@ const TaskStatus=()=>{
     },[])
 
      const ReAssign=async(taskid)=>{
-        let api="http://localhost:8080/admin/reassigntask";
+        let api="https://task-management-system-ot85.onrender.com/admin/reassigntask";
         try {
             const response=await axios.post(api,{taskid:taskid});
             message.success(response.data.msg)

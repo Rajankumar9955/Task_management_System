@@ -30,7 +30,7 @@ const AssignTask=()=>{
     }
     const handleSubmit=()=>{
         try {
-            let api="http://localhost:8080/users/assigntask";
+            let api="https://task-management-system-ot85.onrender.com/users/assigntask";
             const response= axios.post(api,{empid:empId, ...input});
              message.success("Task Assigned");
         } catch (error) {
@@ -42,7 +42,7 @@ const AssignTask=()=>{
 
     const loadData= async()=>{
         try {
-            let api="http://localhost:8080/users/userdisplay";
+            let api="https://task-management-system-ot85.onrender.com/users/userdisplay";
             const response=await axios.get(api);
             setData(response.data);
             console.log(data);

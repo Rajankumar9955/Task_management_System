@@ -21,7 +21,7 @@ const ResetEmployeePass=()=>{
     const handleSubmit=async()=>{
         if(newpassword==connewpassword){
             try {
-                let api="http://localhost:8080/users/resetemppass";
+                let api="https://task-management-system-ot85.onrender.com/users/resetemppass";
                 const response=await axios.post(api,{oldpassword:oldpassword, newpassword:newpassword,userid:userid});
                 if(response.status==200)
                 {

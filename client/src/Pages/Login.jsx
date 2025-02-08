@@ -21,7 +21,7 @@ const Login=()=>{
     const handleSubmit=async()=>{
            if(usertype=='ADMIN'){
                 try {
-                    let api="http://localhost:8080/admin/adminlogin";
+                    let api="https://task-management-system-ot85.onrender.com/admin/adminlogin";
                      let response=await axios.post(api,{email:email,password:password});
                      console.log(response.data)
                   if(response.status==200)
@@ -41,7 +41,7 @@ const Login=()=>{
            else if(usertype=='EMPLOYEE')
            {
                try {
-                  let api="http://localhost:8080/users/userlogin";
+                  let api="https://task-management-system-ot85.onrender.com/users/userlogin";
                   let response=await axios.post(api,{email:email, password:password})
                   console.log(response.data);
                   if(response.status==200)

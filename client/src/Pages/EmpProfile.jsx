@@ -64,7 +64,7 @@ const EmpProfile=()=>{
                 const formData=new FormData();
                 formData.append('photo', myfile);
                 formData.append('userid', userid);
-                const response=await axios.post('http://localhost:8080/users/userphotoupload',formData)
+                const response=await axios.post('https://task-management-system-ot85.onrender.com/users/userphotoupload',formData)
                 try {
                 localStorage.setItem('imgname', response.data.imgname)
                 message.success("Profile Updated!")

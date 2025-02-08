@@ -19,7 +19,7 @@ const TaskShow=()=>{
      const [Data,setdata]=useState([]);
     
         const loadData=async()=>{
-           let api="http://localhost:8080/users/taskShow";
+           let api="https://task-management-system-ot85.onrender.com/users/taskShow";
            try {
              const response=await axios.post(api, {empid:empid})
              setdata(response.data);
@@ -36,7 +36,7 @@ const TaskShow=()=>{
 
          const handleSubmit=async(taskid)=>{
           try {
-            let api="http://localhost:8080/users/tasksubmit";
+            let api="https://task-management-system-ot85.onrender.com/users/tasksubmit";
             const response=await axios.post(api,{taskid:taskid, taskStatus:taskStatus});
             message.success(response.data);
             loadData();
