@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { Link, Outlet, useNavigate} from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import img from "../Images/Coding.avif"
+import img11 from "../Images/Coding.avif"
 import { message } from 'antd';
 const EmployeeDashboard=()=>{
 
@@ -42,7 +42,7 @@ const [username,setUserName]=useState("");
               <div id='usercreatemain11' align="center">
                         <div id='usercreatesecond' align="center" >
                           <div id='img1'>
-                            <img src={img} alt="Logo"  id='img2'/>
+                            <img src={img11} alt="Logo"  id='img2'/>
                           </div>
                               <div id='usercreat'>
                                <Link to="empprofile" style={{marginLeft:"5px",textDecoration:"none",color:"black"}} >Profile</Link>
