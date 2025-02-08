@@ -93,7 +93,7 @@ const EmpProfile=()=>{
                    
                      <div id='usersection4' align="center" >
                         <div style={{height:"80px",width:"80px", borderRadius:"50%", border:"2px solid white", overflow:"hidden",marginLeft:"110px"  }}>
-                            <img src={`http://localhost:8080/uploads/${localStorage.getItem('imgname')}`} alt="img" width="80" height="80" id="divimg"/>
+                            <img src={`https://task-management-system-ot85.onrender.com/uploads/${localStorage.getItem('imgname')}`} alt="img" width="80" height="80" id="divimg"/>
                         </div>
                      <div id="phto1">
                      <FloatingLabel controlId="floatingPassword" label="Upload File" className="mb-1" id="formphoto">
