@@ -350,6 +350,7 @@ button:hover, #usercreate:hover, #usercreate1:hover {
     }
     #usersection3{
         height: 500px;
+        overflow-y: hidden;
     }
     #usercreat{
         margin-left: 45px;
