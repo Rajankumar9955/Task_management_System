@@ -340,9 +340,10 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         /* border: 2px solid black; */
         height: 600px;
         border-radius: 15px;
+        margin-top: 5px;
     }
     #usercreat{
-        margin-left: 25px;
+        margin-left: 45px;
     }
  
 }
