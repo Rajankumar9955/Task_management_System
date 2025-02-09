@@ -30,6 +30,11 @@ body {
     width: 95%;
     max-width: 600px;
 }
+#optionss{
+    width: 95%;
+    max-width: 600px;
+    height: 58px;
+}
 
 /* Second Div */
 #seconddiv {
@@ -53,7 +58,23 @@ body {
 }
 
 /* Buttons */
-button, #usercreate, #usercreat, #usercreate1 {
+#usercreate{
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #95b0ea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+button , #usercreat, #usercreate1 {
     height: 40px;
     border: 2px solid black;
     border-radius: 15px;
@@ -87,7 +108,14 @@ button:hover, #usercreate:hover, #usercreate1:hover {
     overflow-y: scroll;
     overflow-x: scroll;
 }
-
+#assigntasktable{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 380px;
+    /* border: 2px solid black; */
+}
 #AssignTask:hover {
     background-color: black;
     color: white;
@@ -95,7 +123,7 @@ button:hover, #usercreate:hover, #usercreate1:hover {
 
 /* User Sections */
 #usercreatemain, #usercreatesecond, #usersection3 {
-    width: 90%;
+    width: 95%;
     max-width: 400px;
     height: auto;
     border-radius: 15px;
@@ -187,18 +215,128 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         width: 100px;
         height: 30px;
         font-size: 14px;
-    }
 
+    }
+    #usercreatemain{
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 430px;
+        
+    }
+    #usercreatesecond{
+        width: 100%;
+    }
     #formsss11 {
         height: 50px;
     }
-
+    #usercreate{
+       margin-left:15px;
+       margin-bottom: 5px;
+    }
+    #usercreate1{
+        margin-left:15px;
+        margin-bottom: 5px;
+     }
     #usercreate, #usercreat, #usercreate1 {
         width: 80%;
         max-width: 200px;
     }
+    #datashow{
+        margin-top: 33px;
+    }
+    #formsss11{
+        height: 58px;
+        width: 95%;
+    }
+    #btn{
+        margin-top: 5px;
+    }
+    #firstdiv1{
+        background-color: white;
+    }
+    #formstatus{
+        /* border: 2px solid black; */
+        margin-bottom: 15px;
+        margin-top: -10px;
+    }
+    #usersection1{
+        /* border: 2px solid black; */
+        margin-top: 45px;
+        height: 300px;
+    }
+    #usersection2{
+        /* border: 2px solid black; */
+    }
+    #usersection3{
+        border: 2px solid black;
+        background-color: aliceblue;
+        height: 300px;
+    }
+    #usersection4{
+        /* border: 2px solid black; */
+        margin-top: 35px;
+    }
 }
+@media  (max-width:325px){
+    #firstdiv, #firstdiv1 {
+        padding: 10px;
+    }
 
+    #AssignTask {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    #formsss111 {
+        flex-direction: column;
+    }
+    #usercreatemain{
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 430px;
+    }
+    #usercreate{
+        margin-left: 25px;
+    }
+    #usercreate1{
+        margin-left: 25px;
+    }
+    
+}
+@media (max-width: 376px){
+    #firstdiv, #firstdiv1 {
+        /* padding: 10px; */
+        margin-top: -75px;
+    }
+
+    #AssignTask {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    #formsss111 {
+        flex-direction: column;
+    }
+    #usercreatemain{
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 430px;
+    }
+    #usercreate{
+        margin-left: 55px;
+    }
+    #usercreate1{
+        margin-left: 55px;
+    }
+    #assigntasktable{
+        margin-top: -45px;
+    }
+    #model121{
+        width: 270px;
+    }
+}
 @media (max-width: 480px) {
     #firstdiv, #firstdiv1 {
         padding: 10px;

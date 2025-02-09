@@ -65,7 +65,7 @@ const AssignTask=()=>{
                 <td>{key.email}</td>
                 <td>{key.designation}</td>
                 <td>
-                <Button variant="success" onClick={()=>{handleShow(key._id)}}>Assign Task</Button>
+                <Button variant="success" onClick={()=>{handleShow(key._id)}} style={{width:"120px"}}>Assign Task</Button>
                 </td>
             </tr>
             </>
@@ -73,6 +73,7 @@ const AssignTask=()=>{
     })
     return(
         <>
+        <div id="assigntasktable">
         <Table striped bordered hover variant="light">
       <thead>
         <tr>
@@ -85,6 +86,7 @@ const AssignTask=()=>{
         {ans}
       </thead>
       </Table>
+      </div>
 {/* =================================== Model ==================== */}
 <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
@@ -97,15 +99,15 @@ const AssignTask=()=>{
      <Form>
       <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
         <Form.Label>Enter Task Title</Form.Label>
-        <Form.Control type="text" name="tasktitle" value={input.tasktile} onChange={handleInput}  />
+        <Form.Control type="text" name="tasktitle" value={input.tasktile} onChange={handleInput}  id="model121"/>
       </Form.Group>
       <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
         <Form.Label>Enter Completion Days</Form.Label>
-        <Form.Control type="number"  name="comdays" value={input.compdays} onChange={handleInput}/>
+        <Form.Control type="number"  name="comdays" value={input.compdays} onChange={handleInput} id="model121"/>
         </Form.Group>
       <Form.Group className="mb-1" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Enter Description</Form.Label>
-        <Form.Control as="textarea" rows={3}  cols={4} type="text" name="taskdescription" value={input.taskdescription} onChange={handleInput}/>
+        <Form.Control as="textarea" rows={3}  cols={4} type="text" name="taskdescription" value={input.taskdescription} onChange={handleInput} id="model121"/>
       </Form.Group>
     </Form>
       </div>

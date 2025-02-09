@@ -46,7 +46,7 @@ const AdminProfile=()=>{
             <div id='usersection1'>
                                    <div id='usersection2' align="center" style={{marginTop:"3px"}}>
                                         <div id='usersection3' >
-                                            <div id='usersection4' align="center"  style={{marginTop:"90px"}}>
+                                            <div id='usersection4' align="center"  >
                                             <h3 style={{marginLeft:"40px"}}>Welcome :  {usertype}</h3>
                                             <h6 style={{marginLeft:"40px"}}>Email : {adminemail}</h6>
                                             <Button variant="warning"  style={{marginTop:"20px"}} onClick={logoutadmin}>Log-Out</Button><br />
