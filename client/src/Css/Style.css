@@ -351,12 +351,13 @@ button:hover, #usercreate:hover, #usercreate1:hover {
     #usersection3{
         height: 500px;
         overflow-y: hidden;
+        overflow-x: hidden;
     }
     #usercreat{
         margin-left: 45px;
     }
     #bgpic1{
-        margin-left: 15px;
+        margin-left: 14px;
     }
     #imgpic{
         margin-right:75px;
