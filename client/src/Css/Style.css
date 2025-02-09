@@ -341,8 +341,7 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         height: 500px;
         border-radius: 15px;
         margin-top: 5px;
-        overflow-y: hidden;
-        overflow-x: hidden;
+        
     }
     #usersection2{
         /* border: 2px solid black; */
@@ -358,7 +357,7 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         margin-left: 45px;
     }
     #bgpic1{
-        margin-left: 14px;
+        margin-left: 15px;
     }
     #imgpic{
         margin-right:75px;
