@@ -43,10 +43,10 @@ const AdminDashboard=()=>{
                               <div id='usercreate'>
                                <Link to="userscreate" style={{marginLeft:"5px",textDecoration:"none",color:"black"}} >New Create</Link>
                               </div>
-                              <div id='userscreate'>
+                              <div id='usercreate'>
                                <Link to="assigntask" style={{marginLeft:"5px",textDecoration:"none",color:"black"}} >Assign Task</Link>
                               </div>
-                              <div id='usercreate1'>
+                              <div id='usercreate'>
                                <Link to="taskstatus" style={{marginLeft:"5px",textDecoration:"none",color:"black"}} >Task Status</Link>
                               </div>
                               <div id='usercreate1'>
