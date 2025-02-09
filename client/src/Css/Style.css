@@ -346,7 +346,10 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         margin-left: 45px;
     }
     #bgpic1{
-        margin-left: 20px;
+        margin-left: 120px;
+    }
+    #imgpic{
+        margin-left: -55px;
     }
  
 }

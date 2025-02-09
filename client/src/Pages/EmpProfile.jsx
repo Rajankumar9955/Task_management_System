@@ -87,12 +87,12 @@ const EmpProfile=()=>{
             <Spin tip="Loading" size="large"></Spin>
         </div>
         ):(
-            <div id='usersection1'>
+            <div id='usersection1' style={{border:"2px solid black"}}>
             <div id='usersection2' align="center" style={{marginTop:"15px"}}>
                  <div id='usersection3' >
                    
                      <div id='usersection4' align="center" >
-                        <div style={{height:"80px",width:"80px", borderRadius:"50%", border:"2px solid white", overflow:"hidden",marginLeft:"110px"  }}>
+                        <div style={{height:"80px",width:"80px", borderRadius:"50%", border:"2px solid white", overflow:"hidden",marginLeft:"70px"  }} id="imgpic">
                             <img src={`https://task-management-system-ot85.onrender.com/uploads/${localStorage.getItem('imgname')}`} alt="img" width="80" height="80" id="divimg"/>
                         </div>
                      <div id="phto1">
