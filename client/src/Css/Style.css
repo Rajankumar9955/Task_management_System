@@ -345,6 +345,9 @@ button:hover, #usercreate:hover, #usercreate1:hover {
     #usercreat{
         margin-left: 45px;
     }
+    #bgpic1{
+        margin-left: 20px;
+    }
  
 }
 @media (max-width: 480px) {
