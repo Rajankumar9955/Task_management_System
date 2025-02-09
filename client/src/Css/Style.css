@@ -337,8 +337,14 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         width: 270px;
     }
     #usersection1{
-        /* border: 2px solid black; */
-        height: 600px;
+        border: 2px solid black;
+        height: 400px;
+        border-radius: 15px;
+        margin-top: 5px;
+    }
+    #usersection2{
+        border: 2px solid black;
+        height: 400px;
         border-radius: 15px;
         margin-top: 5px;
     }
@@ -346,10 +352,10 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         margin-left: 45px;
     }
     #bgpic1{
-        margin-left: 120px;
+        margin-left: 40px;
     }
     #imgpic{
-        margin-left: -55px;
+        margin-left: -75px;
     }
  
 }

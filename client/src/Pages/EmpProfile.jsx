@@ -87,7 +87,7 @@ const EmpProfile=()=>{
             <Spin tip="Loading" size="large"></Spin>
         </div>
         ):(
-            <div id='usersection1' style={{border:"2px solid black"}}>
+            <div id='usersection1' >
             <div id='usersection2' align="center" style={{marginTop:"15px"}}>
                  <div id='usersection3' >
                    

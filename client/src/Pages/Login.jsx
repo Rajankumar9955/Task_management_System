@@ -67,7 +67,7 @@ const Login=()=>{
     return(
         <>
             <div>
-               <div id='firstdiv' align="center">
+               <div id='firstdiv' align="center" style={{marginTop:"-15px"}}>
                   <div id='seconddiv' align="center">
       
                               <div id='modelss'>        
