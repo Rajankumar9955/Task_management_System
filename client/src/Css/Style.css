@@ -74,7 +74,7 @@ body {
     padding: 5px;
     
 }
-button , #usercreat, #usercreate1 {
+button , #usercreat {
     height: 40px;
     border: 2px solid black;
     border-radius: 15px;
@@ -260,7 +260,7 @@ button:hover, #usercreate:hover, #usercreate1:hover {
         margin-top: -10px;
     }
     #usersection1{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-top: 45px;
         height: 300px;
     }
@@ -335,6 +335,14 @@ button:hover, #usercreate:hover, #usercreate1:hover {
     }
     #model121{
         width: 270px;
+    }
+    #usersection1{
+        /* border: 2px solid black; */
+        height: 600px;
+        border-radius: 15px;
+    }
+    #usercreat{
+        margin-left: 25px;
     }
  
 }
