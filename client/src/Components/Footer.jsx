@@ -36,7 +36,7 @@ const Footer=()=>{
             <MDBIcon fab icon='instagram' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1'  style={{ backgroundColor: '#0082ca' }} href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1'  style={{ backgroundColor: '#0082ca' }} href='https://www.linkedin.com/in/rajan-kumar-741aa722a/' role='button'>
             <MDBIcon fab icon='linkedin-in' />
           </MDBBtn>
 
