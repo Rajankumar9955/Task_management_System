@@ -24,7 +24,7 @@ const Footer=()=>{
             <MDBIcon fab icon='facebook-f' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' style={{ backgroundColor: '#55acee' }} href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' style={{ backgroundColor: '#55acee' }} href='https://x.com/Raj_Malhotra4u' role='button'>
             <MDBIcon fab icon='twitter' />
           </MDBBtn>
 
