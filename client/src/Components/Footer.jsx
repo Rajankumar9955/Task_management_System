@@ -20,7 +20,7 @@ const Footer=()=>{
         <MDBFooter className='text-center' color='white' style={{backgroundColor:"#437070"}}>
       <MDBContainer className='p-4'>
         <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' style={{ backgroundColor: '#3b5998' }} href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' style={{ backgroundColor: '#3b5998' }} href='https://www.facebook.com/profile.php?id=100037204516179' role='button'>
             <MDBIcon fab icon='facebook-f' />
           </MDBBtn>
 
@@ -40,7 +40,7 @@ const Footer=()=>{
             <MDBIcon fab icon='linkedin-in' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' style={{ backgroundColor: '#333333' }} href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' style={{ backgroundColor: '#333333' }} href='h' role='button'>
             <MDBIcon fab icon='github' />
           </MDBBtn>
         </section>
