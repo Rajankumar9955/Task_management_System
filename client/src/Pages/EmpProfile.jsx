@@ -58,7 +58,6 @@ const EmpProfile=()=>{
             setMyfile(e.target.files[0]);
         }
 
-
         const handleSubmit = async()=>{
            
                 const formData=new FormData();
